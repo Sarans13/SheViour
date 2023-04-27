@@ -428,6 +428,7 @@ a:hover span:nth-child(2):after {
 #slide1:before {
   background-image: url("https://images.unsplash.com/photo-1525720093832-94be50e45177?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80");
   transform: translateZ(-1px) scale(2);
+  opacity: 80%;
 }
 
 #slide2 {
