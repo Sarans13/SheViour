@@ -1,3 +1,14 @@
+:root{
+	--border-radius-pill: 320px;
+	--transition-time: 250ms;
+	--transition-curve: ease-in-out;
+	--primary-green:  #695e4f;
+	--hover-green:  #322d26;
+	--hover-green-two: hsla(157, 43%, 40%, 25%);
+	--white: #fff;
+	--black: #000;
+}
+
 dialog.modal
 {
 	margin: auto;
