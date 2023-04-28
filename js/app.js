@@ -27,14 +27,12 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-console.log("🚀 ~ file: app.js:20 ~ app:", app)
+console.log("🚀 ~ file: app.js:20 ~ app:", app);
 
 // Initialize Firebase Authentication and get a reference to the service
 const auth = getAuth(app);
-console.log("🚀 ~ file: app.js:34 ~ auth:", auth)
+console.log("🚀 ~ file: app.js:34 ~ auth:", auth);
 const googleProvider = new GoogleAuthProvider();
-
-
 
 async function signUpWithEmail() {
 	signOut(auth)
@@ -135,13 +133,16 @@ Array.from(googleGmailLogins).forEach((googleGmailLogin) => {
 
 // to redirect different pages ---------------------------------------------------
 const forms = document.querySelectorAll(".modal__form-container--form");
-console.log("🚀 ~ file: app.js:136 ~ forms:", forms)
+console.log("🚀 ~ file: app.js:136 ~ forms:", forms);
 const loginButtons = document.querySelectorAll(`[data-js="loginButton"]`);
 
-console.log("🚀 ~ file: app.js:141 ~ loginButtons:", loginButtons)
+console.log("🚀 ~ file: app.js:141 ~ loginButtons:", loginButtons);
 Array.from(loginButtons).forEach((loginButton, index) => {
-  console.log("🚀 ~ file: app.js:142 ~ Array.from ~ loginButton:", loginButton)
-  
+	console.log(
+		"🚀 ~ file: app.js:142 ~ Array.from ~ loginButton:",
+		loginButton
+	);
+
 	loginButton.addEventListener("click", () => {
 		forms.forEach((form) => {
 			form.action = `/#`;
