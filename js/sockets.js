@@ -1,4 +1,4 @@
-const server = io('ws://sheviour.kalingakhatua.repl.co');
+const server = io('https://sheviour.kalingakhatua.repl.co');
 
 server.on('message', text => {
 
