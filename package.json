@@ -9,7 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.18.2",
     "firebase": "^9.21.0"
+=======
+    "firebase": "^9.20.0"
+>>>>>>> 16f888ed566d855e7d18e8be37662c48417bda4d
   }
 }
