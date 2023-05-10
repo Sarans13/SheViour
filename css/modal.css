@@ -28,6 +28,10 @@ dialog.modal
 	background-color: rgba(0, 0, 0, 0.4);
 }
 
+.modal__title{
+	color: #322d26;
+}
+
 .modal__overlay-text
 {
 	font-size: 14px;
@@ -212,7 +216,8 @@ dialog.modal
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	color: #FFFFFF;
+	color: #FFFFFF
+	;
 	position: relative;
 	left: -100%;
 	height: 100%;
